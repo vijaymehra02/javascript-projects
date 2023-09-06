@@ -1,0 +1,84 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: url(glass_building_reflection-wallpaper-1920x1080.jpg) no-repeat center center/cover  ;
+}
+
+/* user input sectionn  */
+.user{
+    width: 40%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.3);
+    padding: 40px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.user input{
+    width: 20%;
+    height: 40px;
+    text-align: center;
+    background-color: #f6f7d4;
+}
+.user select{
+    width: 10%;
+    height: 20px;
+    text-align: center;
+    background-color: #f6f7d4;
+}
+
+
+/* MID */
+.mid{
+    width: 9%;
+    padding: 1px;
+    height: 4%;
+}
+#stardbtn{
+    width: 100%;
+    height: 100%;  
+}
+.mid button{
+  width: 100%;
+  height: 100%;
+  font-size: 1.3rem;
+  background-color: #f5c5c5;
+}
+
+/* MAIN  */
+.main{
+    width: 50%;
+    padding: 60px;
+    margin: auto;
+    background-color: rgba(0,0,0,0.3);
+    margin-top: 4%;
+    color: #1c100b;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.main h1{
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 3px #f3eeee;
+}
+.end-time{
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 3px #f3eeee;
+}
+
+.main input{
+    width: 17%;
+    height: 20%;
+    padding:3%;
+    text-align: center;
+    background-color: #ffecec;
+    color: red;
+    font-size: 2rem ;
+    font-weight: bold;
+    border-radius: 10px;
+}

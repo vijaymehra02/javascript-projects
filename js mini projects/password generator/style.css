@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.pointer:hover{
+cursor: pointer;
+background-color: #0c7a04;
+}
+.main {
+    width: 100vw;
+    height: 100vh;
+    background-color: #096503;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #24c318;
+    box-shadow: 4px 4px 4px white;
+    border-radius: 19px;
+    padding: 10px;
+    color: #e9f3e1;
+}
+
+.box h1 {
+    width: 360px;
+    background-color: #096503;
+    border-radius: 9px;
+    padding: 3px 7px;
+    box-sizing: border-box;
+    font-size: 1.3rem;
+    color: antiquewhite;
+    min-height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.length-select {
+    background-color: #096503;
+    margin-top: 8px;
+    font-size: 1.3rem;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 2px 8px;
+}
+
+.length-select input {
+    width: 50px;
+}
+
+.select {
+    width: 100%;
+    background-color: #096503;
+    font-size: 1.3rem;
+    box-sizing: border-box;
+    padding: 2px 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#btn {
+    font-size: 1.3rem;
+    width: 100%;
+    padding: 5px 8px;
+    margin-top: 8px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+}

@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 30%;
+    height: 40%;
+    padding-top: 20px;
+    background-color: #332e2e;
+    border-radius: 10px;  
+}
+#color-code{
+    text-align: center;
+    color: #fbf9f9;
+}
+#btn{
+    display: block;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    height: 20px;
+
+}

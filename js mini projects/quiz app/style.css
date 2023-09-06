@@ -1,0 +1,77 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.text-center {
+    text-align: center;
+    padding: 4px 0px;
+}
+
+/* Main conntainer  */
+.main {
+    background-color: #bbced6;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+/* Inner container  */
+.box {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(241, 190, 190);
+    padding: 30px;
+    font-family: sans-serif;
+}
+
+/* Question  */
+.box h2 {
+    margin-bottom: 8px;
+}
+
+/* option container */
+.option {
+    display: flex;
+}
+
+.option input {
+    display: block;
+    position: relative;
+    top: 10px;
+    width: 21px;
+    height: 100%;
+}
+
+.option label {
+    display: inline-block;
+    width: 95%;
+}
+
+.ans {
+    display: inline-block;
+    padding: 5px 0px;
+    font-size: 1.2rem;
+}
+
+/* submit button  */
+#btn {
+    display: block;
+    width: 100%;
+    font-size: 1.4rem;
+    background-color: rgb(206, 223, 217);
+    margin: auto;
+    margin-top: 16px;
+}
+
+/* result show after the end  */
+.resule {
+    width: 50%;
+    margin: auto;
+    background-color: rgb(241, 190, 190);
+    padding: 10px;
+    font-family: sans-serif;
+    border-radius: 10px;
+}
