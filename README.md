@@ -7,7 +7,7 @@
 
 - 🌱 I’m currently learning **Computer Science engineering**
 
-- 👨‍💻 All of my projects are available at [https://github.com/vijaymehra02/Front-end-projects.git](https://github.com/vijaymehra02/Front-end-projects.git)
+- 👨‍💻 All of my projects are available at [https://github.com/vijaymehra02/javascript-projects](https://github.com/vijaymehra02/javascript-projects)
 
 - 📫 How to reach me **vijaybahadursinghmehra@gmail.com**
 
