@@ -4,11 +4,13 @@ const IMGPATH = "https://image.tmdb.org/t/p/w1280";
 const SEARCHAPI = "https://api.themoviedb.org/3/search/movie?&api_key=04c35731a5ee918f014970082a0088b1&query=";
 
 const main = document.querySelector(".main");
+const input = document.querySelector("input")
 
-const init = async (api) => {
+const getmovies = async (api) => {
     const responce = await fetch(api);
     const dataobj = await responce.json()
     const dataarray = Array.from(dataobj)
+    main.innerHTML="";
     dataobj.results.forEach((element) => {
         console.log(element)
         const container = document.createElement("div");
@@ -29,4 +31,12 @@ const init = async (api) => {
       main.appendChild(container)
     });
 }
-init(APIURL);
+input.addEventListener("keyup",function(event){
+    if(event.target.value != ""){
+        console.log(event.target.value)
+        getmovies(SEARCHAPI+event.target.value)
+    }else{
+        getmovies(APIURL);
+    }
+})
+getmovies(APIURL);

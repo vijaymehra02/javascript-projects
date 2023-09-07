@@ -1,7 +1,7 @@
 # javascript-projects
  
 <h1 align="center">Hi 👋, I'm vijay bahadur singh mehra</h1>
-<h3 align="center">I Am 3rd Year Student Pursuing Computer Science Engineering👩‍💻/nThis is my javascript projects repository</h3>
+<h3 align="center">I Am 3rd Year Student Pursuing Computer Science Engineering👩‍💻<br>This is my javascript projects repository</h3>
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=vijaymehra02&label=Profile%20views&color=0e75b6&style=flat" alt="vijaymehra02" /> </p>
 
